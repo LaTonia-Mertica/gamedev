@@ -1,0 +1,13 @@
+body {
+  margin-top: 13rem;
+  background-color: darkblue;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+canvas {
+  background: darkblue;
+  display: block;
+  margin: 0 auto;
+}

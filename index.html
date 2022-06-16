@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gamedev Canvas</title>
-    <style>
+    <!-- internal styles -->
+    <!-- <style>
       * {
         padding: 0;
         margin: 0;
@@ -15,7 +16,8 @@
         display: block;
         margin: 0 auto;
       }
-    </style>
+    </style> -->
+    <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
@@ -94,7 +96,7 @@
                 b.status = 0;
                 score++;
                 if (score == brickRowCount * brickColumnCount) {
-                  alert("YOU WIN, CONGRATULATIONS");
+                  alert("YOU WIN!");
                   document.location.reload();
                 }
               }
@@ -151,7 +153,7 @@
       function drawLives() {
         ctx.font = "16px Arial";
         ctx.fillStyle = "#0095DD";
-        ctx.fillText("Lives: " + lives, canvas.width - 65, 20);
+        ctx.fillText("LIVES: " + lives, canvas.width - 65, 20);
       }
 
       function draw() {
@@ -174,7 +176,7 @@
           } else {
             lives--;
             if (!lives) {
-              alert("GAME OVER");
+              alert("GAME OVER!");
               document.location.reload();
             } else {
               x = canvas.width / 2;
