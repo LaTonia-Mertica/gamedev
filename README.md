@@ -24,6 +24,7 @@ _aka breakout is solid practice for event listeners, canvas terrain, and associa
 | main function w/associated functions      |
 | tracking user score                       |
 | keyboard controls (versus) mouse controls |
+|                                           |
 | **INTUITIVE CONCEPTS**                    |
 | _ability to follow directions_            |
 | _attention to detail_                     |
@@ -40,6 +41,7 @@ _aka breakout is solid practice for event listeners, canvas terrain, and associa
 | practice basic structures to add them to your foundational toolkit |
 | look for patterns, repeat patterns, overlap patterns               |
 | anticipate and type coming code lines without looking              |
+|                                                                    |
 | **INTUITIVE CODING TIPS**                                          |
 | - code, run code, repeat projects to increase code exposure        |
 | - save, push, share some - not all - you code                      |
