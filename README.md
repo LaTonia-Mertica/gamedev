@@ -2,6 +2,8 @@
 
 _aka breakout is solid practice for event listeners, canvas terrain, and associated tasks with explanations_
 
+###### [visit the live demo for gamedev and enjoy a few rounds](https://www.latoniamertica.dev/gamedev/)
+
 ###### [build your own gamedev canvas courtesy mdn web docs](https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Create_the_Canvas_and_draw_on_it)
 
 <br>
